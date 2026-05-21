@@ -1,0 +1,1844 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Reduce Costos de Telefonía en tu Call Center | ICQ24 + Khomp Colombia
+    </title>
+    <meta
+      name="description"
+      content="¿Tu call center paga por llamadas que no generan resultado? ICQ24 implementa Khomp para eliminar minutos improductivos, optimizar costos de telefonía outbound y mejorar el ROI de tu operación en Colombia."
+    />
+    <meta
+      name="keywords"
+      content="reducir costos call center, optimizar costos telefonía call center, eliminar llamadas improductivas, reducir gasto telefonía outbound, reducir costo por llamada call center, eficiencia operativa call center, costos telefonía call center Colombia, minutos desperdiciados call center, bajar costos operación outbound"
+    />
+    <meta name="geo.region" content="CO" />
+    <link
+      rel="canonical"
+      href="https://www.icq24.com/reduccion-de-costos-telecom-khomp"
+    />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "¿Cómo reduce Khomp los costos de telefonía outbound en un call center?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Khomp reduce costos detectando y eliminando llamadas improductivas antes de que se facturen. Con AMD activo, las llamadas a contestadores y buzones se identifican automáticamente, evitando que ese minuto de operadora se consuma sin generar un contacto real. Esto reduce directamente el gasto en telefonía sin bajar el volumen de intentos."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Qué es el NER y cómo impacta los costos telefónicos de un call center?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "NER (Network Effectiveness Ratio) mide la proporción de llamadas que se completan exitosamente versus los intentos totales. Un NER bajo significa que tu operación está pagando por llamadas que no llegan a destino. Khomp Insight! monitorea el NER en tiempo real para identificar y corregir ineficiencias antes de que acumulen costos significativos."
+            }
+          }
+        ]
+      }
+    </script>
+    <script
+      src="https://kit.fontawesome.com/3f2f44a158.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      :root {
+        --bg: #07090f;
+        --bg2: #0e1220;
+        --bg3: #141928;
+        --bg4: #f5f6fa;
+        --surface: #111827;
+        --surface2: #e1e6f0;
+        --green: #377243;
+        --green2: #17411f;
+        --green-gl: rgba(16, 185, 129, 0.1);
+        --green-bd: rgba(16, 185, 129, 0.18);
+        --purple: #8b5cf6;
+        --purple-gl: rgba(139, 92, 246, 0.1);
+        --purple-bd: rgba(139, 92, 246, 0.18);
+        --amber: #f59e0b;
+        --amber-gl: rgba(245, 158, 11, 0.1);
+        --red: #ff2828;
+        --red-gl: rgba(248, 113, 113, 0.1);
+        --red-bd: rgba(248, 113, 113, 0.2);
+        --white: #f1f5ff;
+        --muted: #6b7fa3;
+        --muted2: #b0bbca;
+        --border: rgba(255, 255, 255, 0.07);
+        --border2: rgba(16, 185, 129, 0.15);
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+      body,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      p,
+      a,
+      span,
+      button,
+      input,
+      select {
+        font-family: "Montserrat", sans-serif !important;
+      }
+      body {
+        background: var(--bg4);
+        color: var(--bg);
+        font-family: "Montserrat";
+        font-size: 16px;
+        line-height: 1.6;
+        overflow-x: hidden;
+      }
+
+      /* grid texture */
+      body::before {
+        content: "";
+        position: fixed;
+        inset: 0;
+        z-index: 0;
+        background-image:
+          linear-gradient(rgba(255, 255, 255, 0.025) 1px, transparent 1px),
+          linear-gradient(
+            90deg,
+            rgba(255, 255, 255, 0.025) 1px,
+            transparent 1px
+          );
+        background-size: 64px 64px;
+        pointer-events: none;
+      }
+
+      /* HERO */
+      .hero {
+        padding: 96px 48px 64px;
+        max-width: 1280px;
+        margin: 0 auto;
+        display: grid;
+        gap: 64px;
+        align-items: start;
+        position: relative;
+        z-index: 1;
+      }
+
+      .hero-overline {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        background: var(--red-gl);
+        border: 1px solid var(--red-bd);
+        color: var(--red);
+        font-size: 11px;
+        font-weight: 600;
+        padding: 5px 14px;
+        border-radius: 100px;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        margin-bottom: 24px;
+        font-family: "Montserrat";
+      }
+      .ov-dot {
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+        background: var(--red);
+        animation: pulse 2s infinite;
+      }
+      @keyframes pulse {
+        0%,
+        100% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0.25;
+        }
+      }
+
+      h1 {
+        font-size: clamp(34px, 4.2vw, 58px);
+        font-weight: 800;
+        line-height: 1.05;
+        letter-spacing: -0.03em;
+        color: var(--bg2);
+        margin-bottom: 22px;
+      }
+      h1 .cross {
+        color: var(--muted);
+        text-decoration: line-through;
+        text-decoration-color: var(--red);
+        text-decoration-thickness: 2px;
+      }
+      h1 .gain {
+        background: linear-gradient(90deg, var(--green), #34d399);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+
+      .hero-body {
+        font-size: 17px;
+        color: var(--muted);
+        line-height: 1.8;
+        max-width: 520px;
+        margin-bottom: 30px;
+      }
+      .hero-body strong {
+        color: var(--green);
+        font-weight: 600;
+      }
+
+      /* metric chips */
+      .metric-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 12px;
+        margin-bottom: 32px;
+      }
+      .m-chip {
+        background: var(--bg2);
+        border: 1px solid var(--border);
+        border-radius: 10px;
+        padding: 16px 18px;
+      }
+      .m-chip.green {
+        border-color: var(--green-bd);
+        background: var(--green-gl);
+      }
+      .m-chip.red {
+        border-color: var(--red-bd);
+        background: var(--red-gl);
+      }
+      .m-chip-num {
+        font-family: "Montserrat";
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 1;
+        margin-bottom: 5px;
+      }
+      .m-chip.green .m-chip-num {
+        color: var(--green);
+      }
+      .m-chip.red .m-chip-num {
+        color: var(--red);
+      }
+      .m-chip-label {
+        font-size: 12px;
+        color: var(--muted);
+        line-height: 1.4;
+      }
+
+      .hero-cta {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+      }
+      .btn-hero {
+        background: var(--green) !important;
+        color: var(--white) !important;
+        font-family: "Montserrat", sans-serif !important;
+        font-size: 15px;
+        font-weight: 700;
+        padding: 14px 28px;
+        border-radius: 9px;
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        box-shadow: 0 0 28px rgba(16, 185, 129, 0.3);
+        transition: all 0.2s;
+      }
+      .btn-hero:hover {
+        background: var(--green2);
+        transform: translateY(-2px);
+        box-shadow: 0 8px 32px rgba(1, 255, 98, 0.4);
+      }
+      .btn-sec {
+        color: var(--muted);
+        font-size: 14px;
+        font-weight: 500;
+        text-decoration: none;
+        transition: color 0.2s;
+      }
+      .btn-sec:hover {
+        color: var(--white);
+      }
+
+      /* FORM */
+      .form-wrap {
+        position: sticky;
+        top: 80px;
+        z-index: 2;
+      }
+      .form-card {
+        background: var(--bg2);
+        border-radius: 18px;
+        overflow: hidden;
+        box-shadow:
+          var(--shadow-lg),
+          0 0 40px rgba(16, 185, 129, 0.06);
+      }
+      .fc-top {
+        background: linear-gradient(135deg, #377243, #0a1a2e);
+        padding: 26px 28px;
+        border-bottom: 1px solid var(--green-bd);
+      }
+      .fc-label {
+        font-size: 10px;
+        font-weight: 600;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: var(--green);
+        margin-bottom: 6px;
+        font-family: "Montserrat";
+      }
+      .fc-top h3 {
+        font-size: 18px;
+        font-weight: 700;
+        color: var(--white);
+        line-height: 1.35;
+      }
+      .fc-top-sub {
+        font-size: 13px;
+        color: var(--muted);
+        margin-top: 6px;
+        line-height: 1.5;
+      }
+      .fc-body {
+        padding: 22px 28px;
+      }
+      .savings-note {
+        display: flex;
+        gap: 10px;
+        align-items: flex-start;
+        background: var(--green-gl);
+        border: 1px solid var(--green-bd);
+        border-radius: 9px;
+        padding: 12px 15px;
+        margin-bottom: 16px;
+      }
+      .sn-icon {
+        font-size: 16px;
+        flex-shrink: 0;
+      }
+      .sn-text {
+        font-size: 12px;
+        color: var(--muted);
+        line-height: 1.55;
+      }
+      .sn-text strong {
+        color: var(--green);
+      }
+      .fg {
+        margin-bottom: 12px;
+      }
+      .fg label {
+        display: block;
+        font-size: 10px;
+        font-weight: 600;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: var(--muted);
+        margin-bottom: 5px;
+        font-family: "Montserrat";
+      }
+      .fg input,
+      .fg select {
+        width: 100%;
+        padding: 10px 13px;
+        background: rgba(255, 255, 255, 0.04);
+        border: 1px solid var(--border);
+        border-radius: 7px;
+        font-family: "Montserrat";
+        font-size: 14px;
+        color: var(--white);
+        outline: none;
+        appearance: none;
+        transition:
+          border-color 0.2s,
+          box-shadow 0.2s;
+      }
+      .fg input::placeholder {
+        color: rgba(255, 255, 255, 0.2);
+      }
+      .fg input:focus,
+      .fg select:focus {
+        border-color: var(--green);
+        box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.1);
+        background: rgba(255, 255, 255, 0.06);
+      }
+      .fg select option {
+        background: var(--bg2);
+      }
+
+      .fc-foot {
+        text-align: center;
+        padding: 12px 28px 18px;
+        border-top: 1px solid var(--border);
+      }
+      .fc-foot p {
+        font-size: 11px;
+        color: var(--muted);
+        line-height: 1.5;
+      }
+
+      /* BAND */
+      .band {
+        background: var(--bg2);
+        border-top: 1px solid var(--border);
+        border-bottom: 1px solid var(--border);
+        padding: 22px 48px;
+        position: relative;
+        z-index: 1;
+      }
+      .band-inner {
+        max-width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        gap: 16px;
+      }
+      .band-icon {
+        font-size: 20px;
+        flex-shrink: 0;
+        color: var(--white);
+      }
+      .band p {
+        font-size: 15px;
+        color: rgba(255, 255, 255, 0.65);
+        line-height: 1.6;
+      }
+      .band strong {
+        color: var(--white);
+        font-weight: 600;
+      }
+      .band .mono {
+        font-family: "Montserrat";
+        color: var(--green);
+        font-size: 14px;
+      }
+
+      /* SECTION */
+      .wrap {
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 0 48px;
+      }
+      section.padded {
+        padding: 88px 0;
+        position: relative;
+        z-index: 1;
+      }
+
+      .eyebrow {
+        font-size: 11px;
+        font-weight: 600;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        margin-bottom: 13px;
+        display: block;
+        font-family: "Montserrat";
+      }
+      .ey-green {
+        color: var(--green);
+      }
+      .ey-red {
+        color: var(--red);
+      }
+      .ey-purple {
+        color: var(--purple);
+      }
+      .ey-muted {
+        color: var(--muted);
+      }
+
+      h2.sec-title {
+        font-size: clamp(26px, 3vw, 44px);
+        font-weight: 800;
+        line-height: 1.1;
+        letter-spacing: -0.025em;
+        color: var(--bg2);
+        margin-bottom: 14px;
+      }
+      .sec-sub {
+        font-size: 17px;
+        color: var(--muted);
+        line-height: 1.75;
+        max-width: 640px;
+      }
+
+      /* COST BREAKDOWN */
+      .cost-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1px;
+        background: var(--border);
+        border: 1px solid var(--green);
+        border-radius: 14px;
+        overflow: hidden;
+        margin-top: 52px;
+      }
+      .cost-card {
+        background: var(--surface2);
+        padding: 32px 26px;
+        position: relative;
+        overflow: hidden;
+        transition: background 0.2s;
+      }
+      .cost-card:hover {
+        background: var(--bg3);
+      }
+      .cost-card::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 3px;
+      }
+      .cost-card:nth-child(1)::before {
+        background: var(--green);
+      }
+      .cost-card:nth-child(2)::before {
+        background: var(--green);
+      }
+      .cost-card:nth-child(3)::before {
+        background: var(--green);
+      }
+      .cc-num {
+        font-family: "Montserrat";
+        font-size: 42px;
+        font-weight: 500;
+        line-height: 1;
+        margin-bottom: 14px;
+        color: var(--muted);
+      }
+      .cc-num.red {
+        color: var(--green);
+      }
+      .cc-num.amber {
+        color: var(--green);
+      }
+      .cc-num.purple {
+        color: var(--green);
+      }
+      .cost-card h4 {
+        font-size: 17px;
+        font-weight: 700;
+        color: var(--muted);
+        margin-bottom: 10px;
+        line-height: 1.25;
+      }
+      .cost-card p {
+        font-size: 13px;
+        color: var(--muted);
+        line-height: 1.65;
+      }
+      .cc-source {
+        display: inline-block;
+        margin-top: 14px;
+        font-family: "Montserrat";
+        font-size: 10px;
+        color: rgba(255, 255, 255, 0.2);
+        font-style: italic;
+      }
+
+      /* WHAT IS — SPLIT */
+      .split {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 72px;
+        align-items: start;
+      }
+
+      /* product modules */
+      .modules {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 36px;
+      }
+      .mod {
+        display: flex;
+        gap: 16px;
+        align-items: flex-start;
+        background: var(--bg4);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 20px 22px;
+        transition: border-color 0.2s;
+      }
+      .mod:hover {
+        border-color: var(--green-bd);
+      }
+      .mod-ic {
+        width: 46px;
+        height: 46px;
+        border-radius: 10px;
+        background: var(--green-gl);
+        border: 1px solid var(--green-bd);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        flex-shrink: 0;
+      }
+      .mod-body h5 {
+        font-size: 15px;
+        font-weight: 600;
+        color: var(--white);
+        margin-bottom: 4px;
+      }
+      .mod-body p {
+        font-size: 13px;
+        color: var(--muted);
+        line-height: 1.6;
+      }
+      .mod-body .tag {
+        font-family: "Montserrat";
+        font-size: 10px;
+        color: var(--green);
+        display: inline-block;
+        margin-top: 6px;
+      }
+
+      /* finance panel */
+      .finance-panel {
+        background: var(--bg2);
+        border: 1px solid var(--green-bd);
+        border-radius: 16px;
+        padding: 36px 32px;
+        position: sticky;
+        top: 88px;
+      }
+      .fp-label {
+        font-family: "Montserrat";
+        font-size: 10px;
+        font-weight: 500;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: var(--green);
+        margin-bottom: 16px;
+      }
+      .fp-title {
+        font-size: 20px;
+        font-weight: 700;
+        color: var(--white);
+        line-height: 1.3;
+        margin-bottom: 28px;
+      }
+      .fp-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 15px 0;
+        border-bottom: 1px solid var(--border);
+        gap: 16px;
+      }
+      .fp-row:last-of-type {
+        border-bottom: none;
+        margin-bottom: 20px;
+      }
+      .fp-row-label {
+        font-size: 13px;
+        color: var(--muted);
+        max-width: 180px;
+        line-height: 1.4;
+      }
+      .fp-val {
+        font-family: "Montserrat";
+        font-size: 20px;
+        font-weight: 500;
+        white-space: nowrap;
+        line-height: 1;
+      }
+      .fp-val.pos {
+        color: var(--green);
+      }
+      .fp-val.neg {
+        color: var(--red);
+      }
+      .fp-val .unit {
+        font-size: 10px;
+        font-weight: 400;
+        color: var(--muted);
+        display: block;
+        text-align: right;
+        margin-top: 3px;
+      }
+
+      /* PAIN → SOLUTION */
+      .ps-section {
+        background: var(--white);
+        border-top: 1px solid var(--border);
+        border-bottom: 1px solid var(--border);
+        padding: 88px 0;
+        position: relative;
+        z-index: 1;
+      }
+      .ps-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+        margin-top: 52px;
+      }
+      .ps-card {
+        border-radius: 12px;
+        overflow: hidden;
+        border: 1px solid var(--border);
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+      }
+      .ps-problem {
+        background: var(--red-gl);
+        border-bottom: 1px solid rgba(248, 113, 113, 0.1);
+        padding: 16px 20px;
+        display: flex;
+        gap: 10px;
+        align-items: flex-start;
+        flex-grow: 1;
+      }
+      .ps-problem-icon {
+        font-size: 20px;
+        flex-shrink: 0;
+        margin-top: 2px;
+        color: var(--red);
+      }
+      .ps-problem p {
+        font-size: 14px;
+        color: var(--red);
+        font-weight: 600;
+        line-height: 1.4;
+      }
+      .ps-sol {
+        padding: 16px 20px;
+        background: var(--surface2);
+        display: flex;
+        gap: 10px;
+        align-items: flex-start;
+            }
+      .ps-sol-icon {
+        font-size: 15px;
+        flex-shrink: 0;
+        margin-top: 2px;
+      }
+      .ps-sol p {
+        font-size: 13px;
+        color: var(--muted);
+        line-height: 1.55;
+      }
+      .ps-sol strong {
+        color: var(--green);
+        font-weight: 600;
+      }
+
+      /* EFFICIENCY TABLE */
+      .eff-section {
+        padding: 88px 0;
+        position: relative;
+        z-index: 1;
+      }
+      .eff-table {
+        margin-top: 52px;
+        border: 1px solid var(--muted2);
+        border-radius: 14px;
+        overflow: hidden;
+      }
+      .eff-header {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        background: var(--bg2);
+        border-bottom: 1px solid var(--muted2);
+      }
+      .eff-th {
+        padding: 14px 20px;
+        font-family: "Montserrat";
+        font-size: 10px;
+        font-weight: 500;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: var(--muted2);
+      }
+      .eff-th:not(:last-child) {
+        border-right: 1px solid var(--muted2);
+      }
+      .eff-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        border-bottom: 1px solid var(--muted2);
+      }
+      .eff-row:last-child {
+        border-bottom: none;
+      }
+      .eff-row:hover .eff-td {
+        background: rgba(255, 255, 255, 0.02);
+      }
+      .eff-td {
+        padding: 16px 20px;
+        font-size: 14px;
+        color: var(--muted2);
+        line-height: 1.5;
+      }
+      .eff-td:not(:last-child) {
+        border-right: 1px solid var(--muted2);
+      }
+      .eff-td.label {
+        color: var(--bg2);
+        font-weight: 600;
+      }
+      .eff-td.neg {
+        color: var(--red);
+        font-weight: 600;
+        font-family: "Montserrat";
+        font-size: 13px;
+      }
+      .eff-td.pos {
+        color: var(--green);
+        font-weight: 600;
+        font-family: "Montserrat";
+        font-size: 13px;
+      }
+
+      /* HOW */
+      .how-section {
+        background: var(--white);
+        border-top: 1px solid var(--border);
+        border-bottom: 1px solid var(--border);
+        padding: 88px 0;
+        position: relative;
+        z-index: 1;
+      }
+      .how-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1px;
+        background: var(--border);
+        border: 1px solid var(--border);
+        border-radius: 14px;
+        overflow: hidden;
+        margin-top: 52px;
+      }
+      .how-card {
+        background: var(--surface2);
+        padding: 32px 24px;
+        transition: background 0.2s;
+      }
+      .how-card:hover {
+        background: var(--bg3);
+      }
+      .how-card:hover h5 {
+        color: var(
+          --bg4
+        ) !important; /* O el color claro que prefieras para el título */
+      }
+      .how-num {
+        font-family: "Montserrat";
+        font-size: 40px;
+        font-weight: 400;
+        color: var(--green);
+        line-height: 1;
+        margin-bottom: 18px;
+      }
+      .how-card h5 {
+        font-size: 15px;
+        font-weight: 600;
+        color: var(--bg2);
+        margin-bottom: 8px;
+        line-height: 1.3;
+      }
+
+      .how-card p {
+        font-size: 13px;
+        color: var(--muted);
+        line-height: 1.65;
+      }
+      .how-badge {
+        display: inline-block;
+        margin-top: 14px;
+        background: var(--green-gl);
+        border: 1px solid var(--green-bd);
+        color: var(--green);
+        font-size: 10px;
+        font-weight: 600;
+        padding: 3px 10px;
+        border-radius: 100px;
+        font-family: "Montserrat";
+      }
+
+      /* PROOF */
+      .proof-section {
+        padding: 20px 0;
+        position: relative;
+        z-index: 1;
+      }
+      .proof-card {
+        background: var(--bg2);
+        border: 1px solid var(--green-bd);
+        border-radius: 18px;
+        padding: 48px 52px;
+        box-shadow: 0 0 50px rgba(16, 185, 129, 0.05);
+        display: grid;
+        grid-template-columns: 1fr auto;
+        gap: 40px;
+        align-items: center;
+        position: relative;
+        overflow: hidden;
+        max-width: 1000px;
+        margin: 0 auto;
+      }
+      .proof-card::before {
+        content: '"';
+        position: absolute;
+        top: -10px;
+        left: 28px;
+        font-size: 160px;
+        font-weight: 800;
+        color: rgba(16, 185, 129, 0.06);
+        line-height: 1;
+      }
+      .pq-text {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.7;
+        color: var(--white);
+        position: relative;
+        z-index: 1;
+      }
+      .pq-text strong {
+        color: var(--green);
+        font-weight: 700;
+      }
+      .pq-author {
+        margin-top: 16px;
+        font-family: "Montserrat";
+        font-size: 11px;
+        color: var(--muted);
+        text-transform: uppercase;
+        letter-spacing: 0.07em;
+      }
+      .pq-metric {
+        background: var(--green-gl);
+        border: 1px solid var(--green-bd);
+        border-radius: 14px;
+        padding: 28px 24px;
+        text-align: center;
+        flex-shrink: 0;
+        min-width: 150px;
+      }
+      .pqm-val {
+        font-family: "Montserrat";
+        font-size: 38px;
+        font-weight: 500;
+        color: var(--green);
+        line-height: 1;
+        display: block;
+      }
+      .pqm-label {
+        font-size: 12px;
+        color: var(--muted);
+        margin-top: 8px;
+        line-height: 1.4;
+        max-width: 110px;
+      }
+
+      /* CTA FINAL */
+      .cta-section {
+        padding: 100px 0;
+        text-align: center;
+        position: relative;
+        z-index: 1;
+        overflow: hidden;
+      }
+      .cta-section::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: url("https://raw.githubusercontent.com/Lucaro99/IMG-Correo-FCR/main/Background_Verde.webp");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        z-index: -1;
+        opacity: 0.5;
+      }
+      .cta-section h2 {
+        font-size: clamp(28px, 3.5vw, 50px);
+        font-weight: 800;
+        line-height: 1.1;
+        letter-spacing: -0.03em;
+        color: var(--bg2);
+        max-width: 680px;
+        margin: 16px auto 16px;
+      }
+      .cta-section p {
+        font-size: 17px;
+        color: var(--bg3);
+        max-width: 500px;
+        margin: 0 auto 40px;
+        line-height: 1.75;
+      }
+      .cta-pair {
+        display: flex;
+        gap: 14px;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+      .btn-cta {
+        background: var(--green) !important;
+        color: var(--white) !important;
+        font-family: "Montserrat", sans-serif !important;
+        font-size: 15px;
+        font-weight: 700;
+        padding: 15px 30px;
+        border-radius: 9px;
+        text-decoration: none;
+        box-shadow: 0 0 28px rgba(16, 185, 129, 0.3);
+        transition: all 0.2s;
+      }
+      .btn-cta:hover {
+        background: var(--green2);
+        transform: translateY(-2px);
+        box-shadow: 0 8px 32px rgba(1, 255, 98, 0.4);
+      }
+      .btn-cta-ghost {
+        background: transparent;
+        color: var(--bg);
+        border: 1px solid var(--bg);
+        font-size: 14px;
+        font-weight: 500;
+        padding: 15px 24px;
+        border-radius: 9px;
+        text-decoration: none;
+        transition: all 0.2s;
+      }
+      .btn-cta-ghost:hover {
+        border-color: var(--green-bd);
+        color: var(--green);
+      }
+
+      /* TRUST BAR */
+      .trust-bar {
+        background: var(--bg2);
+        border-bottom: 1px solid var(--border);
+        padding: 0 48px;
+        height: 44px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0;
+      }
+      .tb-inner {
+        display: flex;
+        align-items: center;
+        gap: 32px;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .tb-item {
+        display: flex;
+        align-items: center;
+        gap: 7px;
+        font-size: 12px;
+        font-weight: 600;
+        color: var(--muted);
+        white-space: nowrap;
+        font-family: "Montserrat";
+      }
+      .tb-item svg {
+        width: 14px;
+        height: 14px;
+        flex-shrink: 0;
+      }
+      .tb-item.hl {
+        color: var(--green);
+      }
+      .tb-sep {
+        width: 1px;
+        height: 16px;
+        background: var(--border);
+      }
+
+      /* BENEFIT STRIPE */
+      .benefit-stripe {
+        background: var(--green-gl);
+        border: 1px solid var(--green-bd);
+        border-radius: 10px;
+        padding: 12px 18px;
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 22px;
+      }
+      .bs-text {
+        font-size: 14px;
+        color: var(--bg2);
+        font-weight: 500;
+        line-height: 1.4;
+      }
+      .bs-text strong {
+        color: var(--green);
+        font-weight: 700;
+      }
+
+      /* FORM OUTCOME */
+      .fc-outcomes {
+        padding: 12px 0 0;
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+      }
+      .fco-item {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-size: 12px;
+        color: rgba(255, 255, 255, 0.6);
+      }
+      .fco-item svg {
+        width: 13px;
+        height: 13px;
+        color: var(--green);
+        flex-shrink: 0;
+      }
+
+      /* MINI PROOF */
+      .mini-proof {
+        background: var(--green-gl);
+        border: 1px solid var(--green-bd);
+        border-radius: 10px;
+        padding: 14px 16px;
+        margin: 14px 0 0;
+      }
+      .mp-quote {
+        font-size: 13px;
+        color: var(--muted);
+        line-height: 1.55;
+        font-style: italic;
+      }
+      .mp-quote strong {
+        color: var(--green);
+        font-style: normal;
+      }
+      .mp-attr {
+        font-size: 10px;
+        color: var(--green);
+        margin-top: 6px;
+        font-weight: 600;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        font-family: "Montserrat";
+      }
+
+      /* ANIM */
+      @keyframes fadeUp {
+        from {
+          opacity: 0;
+          transform: translateY(18px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      .fu {
+        animation: fadeUp 0.6s ease both;
+      }
+      .d1 {
+        animation-delay: 0.1s;
+      }
+      .d2 {
+        animation-delay: 0.2s;
+      }
+      .d3 {
+        animation-delay: 0.3s;
+      }
+
+      /* RESPONSIVE */
+      @media (max-width: 1024px) {
+        .hero {
+          grid-template-columns: 1fr;
+          padding: 90px 32px 56px;
+        }
+        .form-wrap {
+          position: static;
+        }
+        .form-card {
+          max-width: 500px;
+        }
+        .split {
+          grid-template-columns: 1fr;
+          gap: 40px;
+        }
+        .finance-panel {
+          position: static;
+        }
+        .cost-grid {
+          grid-template-columns: 1fr;
+        }
+        .ps-grid {
+          grid-template-columns: 1fr;
+        }
+        .how-grid {
+          grid-template-columns: 1fr 1fr;
+        }
+        .proof-card {
+          grid-template-columns: 1fr;
+        }
+      }
+      @media (max-width: 768px) {
+        .hero,
+        .wrap {
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+        section.padded,
+        .eff-section,
+        .ps-section,
+        .how-section,
+        .proof-section,
+        .cta-section {
+          padding: 64px 0;
+        }
+        .band {
+          padding: 20px 20px;
+        }
+        .band-inner {
+          flex-direction: column;
+          gap: 10px;
+        }
+        .metric-row {
+          grid-template-columns: 1fr;
+        }
+        .eff-section {
+          overflow-x: auto;
+        }
+        .how-grid {
+          grid-template-columns: 1fr;
+        }
+        footer {
+          flex-direction: column;
+          text-align: center;
+        }
+        .cta-pair {
+          flex-direction: column;
+          align-items: center;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- ─── HERO ─── -->
+    <div style="padding-top: 0; position: relative; z-index: 1">
+      <div class="hero">
+        <div class="fu">
+          <div class="hero-overline">
+            <span class="ov-dot"></span>Tu factura de telefonía tiene un
+            problema que no estás viendo
+          </div>
+          <div class="benefit-stripe">
+            <p class="bs-text">
+              <strong>Elimina el gasto en llamadas sin resultado</strong> —
+              Khomp detecta y filtra lo improductivo antes de que se facture
+            </p>
+          </div>
+          <h1>
+            Minutos pagados.<br />
+            <span class="cross">Resultados obtenidos.</span><br />
+            <span class="gain">Eso tiene que cambiar.</span>
+          </h1>
+          <p class="hero-body">
+            Cada llamada que termina en buzón de voz, línea ocupada o sin
+            respuesta humana tiene un costo real — el minuto de la operadora, el
+            tiempo del agente y el KPI que no se mueve. Sin los mecanismos
+            correctos de detección y control, ese gasto es completamente
+            invisible hasta que llega la factura y ya no hay nada que hacer.
+            <br /><br />
+            <strong>ICQ24 implementa Khomp</strong> para que tu operación
+            outbound deje de pagar por llamadas que nunca generaron un contacto
+            real.
+          </p>
+
+          <div class="metric-row fu d1">
+            <div class="m-chip red">
+              <div class="m-chip-num red">~80%</div>
+              <div class="m-chip-label">
+                de llamadas predictivas no llegan a una persona real ·
+                referencia industria
+              </div>
+            </div>
+            <div class="m-chip green">
+              <div class="m-chip-num">+ROI</div>
+              <div class="m-chip-label">
+                en campañas outbound con análisis Khomp activo · vía Insight!
+                Khomp
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-cta fu d2">
+            <a href="#form" class="btn-hero"
+              >Quiero reducir mis costos de telefonía
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                <path
+                  d="M2 7h10M7 2l5 5-5 5"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                /></svg
+            ></a>
+            <a href="#como-funciona" class="btn-sec">Cómo funciona ↓</a>
+          </div>
+        </div>
+
+        <!-- FORM -->
+        <div class="form-wrap fu d2" id="form">
+          <div class="form-card">
+            <div class="fc-top">
+              <h3>
+                Descubre cuánto gasta tu operación en llamadas que no generan
+                resultado
+              </h3>
+            </div>
+          </div>
+
+          <div style="padding: 0 18px 20px">
+            <div class="mini-proof">
+              <p class="mp-quote">
+                "Dejamos de pagar por llamadas que nunca generaron nada.
+                <strong>La solución es mucho más rápida y precisa</strong> de lo
+                que esperábamos."
+              </p>
+              <p class="mp-attr">
+                // Cliente Khomp · Operación outbound · vía Khomp Communications
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ─── BAND ─── -->
+    <div class="band">
+      <div class="band-inner">
+        <span class="band-icon"
+          ><i class="fa-solid fa-triangle-exclamation"></i
+        ></span>
+        <p>
+          El problema no es cuánto llamas — es que
+          <strong
+            >pagas igual por los intentos que funcionan y por los que no</strong
+          >. Sin tecnología de detección y clasificación, tu operadora cobra
+          cada minuto independientemente del resultado.
+          <span class="mono">Khomp resuelve eso.</span>
+        </p>
+      </div>
+    </div>
+
+    <!-- ─── DÓNDE SE VA EL DINERO ─── -->
+    <section class="padded" style="background: var(--white)">
+      <div class="wrap">
+        <span class="eyebrow ey-red"
+          >Dónde se está yendo el dinero en tu operación</span
+        >
+        <h2 class="sec-title">
+          Tres formas en que los costos telefónicos<br />crecen sin que lo notes
+        </h2>
+        <p class="sec-sub">
+          El gasto improductivo en telefonía outbound rara vez es visible en
+          tiempo real. Se acumula llamada a llamada — y solo se hace evidente
+          cuando comparas la factura con los resultados de campaña.
+        </p>
+
+        <div class="cost-grid">
+          <div class="cost-card">
+            <div class="cc-num red">01</div>
+            <h4>Minutos facturados en llamadas sin respuesta humana</h4>
+            <p>
+              Buzones de voz, líneas ocupadas, IVR automáticos, números fuera de
+              servicio — todos generan tiempo de conexión que tu operadora
+              factura como uso real. Sin AMD activo, ese gasto es inevitable.
+            </p>
+            <span class="cc-source"
+              >// minutos improductivos · gasto invisible</span
+            >
+          </div>
+          <div class="cost-card">
+            <div class="cc-num amber">02</div>
+            <h4>
+              Enrutamiento ineficiente que multiplica el gasto por intento
+            </h4>
+            <p>
+              Un NER (índice de efectividad de red) bajo o unos CAPS mal
+              calibrados generan reintentos innecesarios, congestión en los
+              enlaces y costos adicionales por cada llamada que no llega a
+              destino en el primer intento.
+            </p>
+            <span class="cc-source">// NER bajo · CAPS mal calibrados</span>
+          </div>
+          <div class="cost-card">
+            <div class="cc-num purple">03</div>
+            <h4>
+              Sin visibilidad en tiempo real, el problema se descubre tarde
+            </h4>
+            <p>
+              Si los problemas de costo aparecen en el reporte del día
+              siguiente, ya acumulaste horas de gasto ineficiente. La falta de
+              herramientas de monitoreo en tiempo real convierte un problema
+              solucionable en un costo recurrente.
+            </p>
+            <span class="cc-source"
+              >// decisiones tardías · costo acumulado</span
+            >
+          </div>
+        </div>
+      </div>
+      <div class="cta-pair" style="margin-top: 25px">
+        <a href="#form" class="btn-cta">Solicitar análisis gratuito</a>
+      </div>
+    </section>
+
+    <!-- ─── SOLUCIÓN / KHOMP ─── -->
+    <section
+      class="padded"
+      style="
+        background: var(--surface2);
+        border-top: 1px solid var(--border);
+        border-bottom: 1px solid var(--border);
+      "
+      id="como-funciona"
+    >
+      <div class="wrap">
+        <div class="split">
+          <div>
+            <span class="eyebrow ey-green">La solución Khomp</span>
+            <h2 class="sec-title">
+              Tecnología que elimina el gasto improductivo antes de que se
+              facture
+            </h2>
+            <p class="sec-sub">
+              Khomp combina detección de llamadas con IA, análisis de
+              telecomunicaciones en tiempo real y gestión centralizada de
+              campañas outbound para que cada minuto de telefonía que pagues
+              tenga mayor probabilidad de convertirse en un contacto real.
+            </p>
+
+            <div class="modules">
+              <div class="mod">
+                <div class="mod-ic"><i class="fa-solid fa-robot"></i></div>
+                <div class="mod-body">
+                  <h5>
+                    AMD con IA — detección de contestadores antes de facturar
+                  </h5>
+                  <p>
+                    Identifica si la llamada fue atendida por un humano o un
+                    buzón automático antes de conectar al agente. Las llamadas
+                    improductivas se detectan y gestionan sin consumir el minuto
+                    completo de marcación.
+                  </p>
+                  <span class="tag"
+                    >// Khomp AMD · clasificación inteligente</span
+                  >
+                </div>
+              </div>
+              <div class="mod">
+                <div class="mod-ic">
+                  <i class="fa-solid fa-chart-simple"></i>
+                </div>
+                <div class="mod-body">
+                  <h5>
+                    Insight! Khomp — análisis de telecomunicaciones en tiempo
+                    real
+                  </h5>
+                  <p>
+                    Plataforma de análisis profundo que entrega métricas
+                    precisas sobre NER, CAPS y rendimiento de campaña en tiempo
+                    real. Detecta ineficiencias de enrutamiento y costos
+                    innecesarios mientras la campaña está activa.
+                  </p>
+                  <span class="tag"
+                    >// Insight! Khomp · NER · CAPS monitoring</span
+                  >
+                </div>
+              </div>
+              <div class="mod">
+                <div class="mod-ic">
+                  <i class="fa-solid fa-screwdriver-wrench"></i>
+                </div>
+                <div class="mod-body">
+                  <h5>
+                    Manager One — gestión centralizada y control de costos
+                  </h5>
+                  <p>
+                    Plataforma para la gestión optimizada de campañas outbound
+                    con monitoreo de métricas en vivo. Disponible on-premise,
+                    cloud e híbrido — se integra con tu infraestructura actual
+                    sin reemplazarla.
+                  </p>
+                  <span class="tag"
+                    >// Manager One · cloud · on-premise · hybrid</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="finance-panel">
+            <div class="fp-label">impacto en operación</div>
+            <div><img src="https://raw.githubusercontent.com/Lucaro99/IMG-Correo-FCR/main/Khomp_SVG.webp" alt="Logo Khomp" width="300" height="auto"></div>
+            <h3 class="fp-title">
+              Lo que cambia cuando controlas el gasto en telefonía con Khomp
+            </h3>
+            <div class="fp-row">
+              <span class="fp-row-label"
+                >Llamadas a buzón conectadas al agente</span
+              >
+              <div class="fp-val neg">
+                ↓ Reduce<span class="unit">con AMD activo</span>
+              </div>
+            </div>
+            <div class="fp-row">
+              <span class="fp-row-label"
+                >Minutos facturados sin contacto real</span
+              >
+              <div class="fp-val neg">
+                Disminuye<span class="unit">significativamente</span>
+              </div>
+            </div>
+            <div class="fp-row">
+              <span class="fp-row-label">ROI campañas outbound</span>
+              <div class="fp-val pos">
+                +10–25%<span class="unit">referencia Insight! Khomp</span>
+              </div>
+            </div>
+            <div class="fp-row">
+              <span class="fp-row-label"
+                >Visibilidad del gasto en tiempo real</span
+              >
+              <div class="fp-val pos">
+                Total<span class="unit">NER · CAPS · por campaña</span>
+              </div>
+            </div>
+            <div class="fp-row">
+              <span class="fp-row-label"
+                >Adaptación a cambios de operadora</span
+              >
+              <div class="fp-val pos">
+                IA<span class="unit">aprendizaje continuo</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── DOLOR → SOLUCIÓN ─── -->
+    <div class="ps-section">
+      <div class="wrap">
+        <span class="eyebrow ey-green">De cada problema, a su solución</span>
+        <h2 class="sec-title">
+          Los problemas de costos telefónicos<br />que Khomp resuelve
+          directamente
+        </h2>
+
+        <div class="ps-grid">
+          <div class="ps-card">
+            <div class="ps-problem">
+              <span class="ps-problem-icon"
+                ><i class="fa-solid fa-triangle-exclamation"></i
+              ></span>
+              <p>
+                Tu factura de telefonía sube cada mes pero los resultados de
+                campaña no mejoran — pagas por minutos que no se convierten en
+                contacto.
+              </p>
+            </div>
+            <div class="ps-sol">
+              <span class="ps-sol-icon"
+                ><i class="fa-solid fa-right-long"></i
+              ></span>
+              <p>
+                <strong
+                  >Khomp AMD detecta y filtra las llamadas improductivas antes
+                  del tiempo mínimo de facturación</strong
+                >, reduciendo directamente el gasto en minutos de operadora sin
+                disminuir el volumen de intentos de tu campaña.
+              </p>
+            </div>
+          </div>
+          <div class="ps-card">
+            <div class="ps-problem">
+              <span class="ps-problem-icon"
+                ><i class="fa-solid fa-triangle-exclamation"></i
+              ></span>
+              <p>
+                No tienes visibilidad de tu NER ni de los CAPS en tiempo real —
+                cuando detectas que algo está mal, ya perdiste horas de campaña
+                y dinero.
+              </p>
+            </div>
+            <div class="ps-sol">
+              <span class="ps-sol-icon"
+                ><i class="fa-solid fa-right-long"></i
+              ></span>
+              <p>
+                <strong
+                  >Insight! Khomp monitorea NER y CAPS en tiempo real</strong
+                >, permitiéndote ajustar el enrutamiento y la estrategia de
+                marcación durante la campaña activa — no cuando ya es tarde.
+              </p>
+            </div>
+          </div>
+          <div class="ps-card">
+            <div class="ps-problem">
+              <span class="ps-problem-icon"
+                ><i class="fa-solid fa-triangle-exclamation"></i
+              ></span>
+              <p>
+                Aumentas el volumen de marcación para compensar los malos
+                resultados, pero solo logras multiplicar el gasto sin mejorar el
+                costo por llamada efectiva.
+              </p>
+            </div>
+            <div class="ps-sol">
+              <span class="ps-sol-icon"
+                ><i class="fa-solid fa-right-long"></i
+              ></span>
+              <p>
+                <strong>Con clasificación de llamadas por IA</strong>, Khomp
+                asegura que cada intento sea dirigido de forma inteligente — más
+                contactos reales por el mismo presupuesto de telefonía outbound.
+              </p>
+            </div>
+          </div>
+          <div class="ps-card">
+            <div class="ps-problem">
+              <span class="ps-problem-icon"
+                ><i class="fa-solid fa-triangle-exclamation"></i
+              ></span>
+              <p>
+                Tu stack tecnológico es híbrido o on-premise y necesitas control
+                de costos telefónicos sin reemplazar todo lo que ya funciona en
+                tu operación.
+              </p>
+            </div>
+            <div class="ps-sol">
+              <span class="ps-sol-icon"
+                ><i class="fa-solid fa-right-long"></i
+              ></span>
+              <p>
+                <strong
+                  >Manager One está disponible en cloud, on-premise e
+                  híbrido</strong
+                >
+                y se integra con tu infraestructura actual. ICQ24 define la
+                arquitectura de integración correcta para tu caso específico.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cta-pair" style="margin-top: 25px">
+        <a href="#form" class="btn-cta">Solicitar análisis gratuito</a>
+      </div>
+    </div>
+
+    <!-- ─── TABLA COMPARATIVA ─── -->
+    <section class="eff-section" style="background: var(--surface2)">
+      <div class="wrap">
+        <span class="eyebrow ey-purple">Comparativa operativa</span>
+        <h2 class="sec-title">
+          Cómo cambia el control de costos<br />cuando tienes la tecnología
+          correcta
+        </h2>
+
+        <div class="eff-table">
+          <div class="eff-header">
+            <div class="eff-th">Situación operativa</div>
+            <div class="eff-th">Sin Khomp</div>
+            <div class="eff-th">Con Khomp · ICQ24</div>
+          </div>
+          <div class="eff-row">
+            <div class="eff-td label">Llamadas a buzón de voz</div>
+            <div class="eff-td neg">
+              Se facturan como minuto completo de uso
+            </div>
+            <div class="eff-td pos">
+              Detectadas por AMD antes de conectar al agente
+            </div>
+          </div>
+          <div class="eff-row">
+            <div class="eff-td label">Visibilidad del NER</div>
+            <div class="eff-td neg">Desconocido o en reportes diferidos</div>
+            <div class="eff-td pos">
+              Monitoreo en tiempo real con Insight! Khomp
+            </div>
+          </div>
+          <div class="eff-row">
+            <div class="eff-td label">Control de CAPS</div>
+            <div class="eff-td neg">
+              Manual o sin ajuste dinámico por campaña
+            </div>
+            <div class="eff-td pos">Ajuste optimizado y monitoreo continuo</div>
+          </div>
+          <div class="eff-row">
+            <div class="eff-td label">Respuesta ante ineficiencias</div>
+            <div class="eff-td neg">
+              Al día siguiente — después de acumular pérdidas
+            </div>
+            <div class="eff-td pos">
+              Durante la campaña — corrección inmediata
+            </div>
+          </div>
+          <div class="eff-row">
+            <div class="eff-td label">
+              Integración con infraestructura actual
+            </div>
+            <div class="eff-td neg">
+              Requiere reemplazar stack o negociar con proveedor
+            </div>
+            <div class="eff-td pos">
+              Cloud, on-premise o híbrido — sin interrupciones
+            </div>
+          </div>
+          <div class="eff-row">
+            <div class="eff-td label">Costo por llamada efectiva</div>
+            <div class="eff-td neg">Alto — incluye intentos improductivos</div>
+            <div class="eff-td pos">
+              Reducido — solo pagas por contactos reales
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── HOW WE WORK ─── -->
+    <div class="how-section">
+      <div class="wrap">
+        <span class="eyebrow ey-green">Cómo trabajamos contigo</span>
+        <h2 class="sec-title">
+          Del diagnóstico al control de costos,<br />en cuatro pasos concretos
+        </h2>
+
+        <div class="how-grid">
+          <div class="how-card">
+            <div class="how-num">01</div>
+            <h5>Auditoría de costos telefónicos</h5>
+            <p>
+              Analizamos tu factura de telefonía, los CAPS actuales, el NER de
+              tu red y el porcentaje de llamadas improductivas. Identificamos
+              exactamente dónde se está generando gasto sin resultado.
+            </p>
+            <span class="how-badge">// gratuito</span>
+          </div>
+          <div class="how-card">
+            <div class="how-num">02</div>
+            <h5>Diseño del plan de optimización</h5>
+            <p>
+              Configuramos Khomp según el perfil de tu operación: AMD, umbrales
+              de CAPS, alertas de gasto por campaña y enrutamiento inteligente
+              ajustado a tu operadora y tipo de llamadas.
+            </p>
+            <span class="how-badge">// a medida</span>
+          </div>
+          <div class="how-card">
+            <div class="how-num">03</div>
+            <h5>Implementación y monitoreo activo</h5>
+            <p>
+              Activamos la plataforma Khomp con seguimiento en tiempo real de
+              NER, CAPS y costo por llamada efectiva. ICQ24 acompaña la
+              operación para garantizar que los ajustes generen el impacto
+              esperado.
+            </p>
+            <span class="how-badge">// soporte ICQ24</span>
+          </div>
+          <div class="how-card">
+            <div class="how-num">04</div>
+            <h5>Optimización continua</h5>
+            <p>
+              Con los datos de Insight! Khomp, ajustamos estrategias de
+              marcación, umbrales de costo y configuración de AMD de forma
+              continua para maximizar el ROI de cada peso invertido en
+              telefonía.
+            </p>
+            <span class="how-badge">// iterativo</span>
+          </div>
+        </div>
+      </div>
+      <div class="cta-pair" style="margin-top: 25px">
+        <a href="#form" class="btn-cta">Solicitar análisis gratuito</a>
+      </div>
+    </div>
+
+    <!-- ─── PROOF ─── -->
+    <section class="proof-section">
+      <div class="wrap">
+        <div class="proof-card">
+          <div>
+            <p class="pq-text">
+              "La solución Khomp es
+              <strong>mucho más rápida y mucho más precisa</strong>. Con AMD
+              habilitado, los agentes tienen más probabilidades de realizar una
+              venta porque interactúan solo con personas reales — y dejamos de
+              pagar por llamadas que nunca generaron nada."
+            </p>
+            <p class="pq-author">
+              // Cliente Khomp · Operación outbound · vía Khomp Communications
+            </p>
+          </div>
+          <div class="pq-metric">
+            <span class="pqm-val">+ROI</span>
+            <p class="pqm-label">
+              en campañas con análisis Khomp activo · Insight! Khomp
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── CTA FINAL ─── -->
+    <section class="cta-section">
+      <div class="wrap">
+        <span
+          class="eyebrow ey-green"
+          style="display: block; text-align: center"
+          >¿Listo para controlar lo que gastas en telefonía?</span
+        >
+        <h2>
+          Cada mes que pasa, el gasto improductivo se sigue acumulando en tu
+          factura.
+        </h2>
+        <p>
+          Solicita tu análisis de eficiencia gratuito. Un especialista ICQ24
+          revisa tu operación, identifica dónde se está yendo el dinero y te
+          propone un plan concreto con Khomp — sin compromiso.
+        </p>
+        <div class="cta-pair">
+          <a href="#form" class="btn-cta">Solicitar análisis gratuito</a>
+          <a href="#form" class="btn-cta-ghost">Hablar con un especialista →</a>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
